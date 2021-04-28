@@ -31,7 +31,8 @@ public class Objective9Lab5 {
         case 3://calculate tax 8.31%
           System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " is: " + calcTax(num1, num2));
           break;
-        case 4:
+        case 4
+          System.out.println("You have chosen to quit.")
           keepGoing = false;
           break;
         default:
